@@ -7,6 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **By [Richardy Lobo Sapan](https://richardy-lobo-sapan.github.io)** · [GitHub](https://github.com/richardy-lobo-sapan) · [LinkedIn](https://linkedin.com/in/richardylobosapan)
+*Contributor to [NusaCrowd](https://github.com/IndoNLP/nusacrowd) & [SEACrowd](https://github.com/SEACrowd)*
 
 
 ---
@@ -19,7 +20,7 @@ I was confused by the buzzwords. I didn't know the difference between a dataset 
 
 This repo is what I wish had existed back then.
 
-It's not trying to replace resources such as [NusaCrowd](https://github.com/IndoNLP/nusacrowd) or [SEACrowd](https://github.com/SEACrowd) — those are incredible projects with hundreds of datasets built by teams of researchers (I contributed too). If you're a researcher who knows what you're doing, go there.
+It's not trying to replace [NusaCrowd](https://github.com/IndoNLP/nusacrowd) or [SEACrowd](https://github.com/SEACrowd) — those are incredible projects with hundreds of datasets built by teams of researchers (I contributed to both!). If you're a researcher who knows what you're doing, go there.
 
 This is for everyone else. The student who just heard about NLP for the first time. The developer who wants to add Indonesian text features to their app. The person who keeps seeing "IndoBERT" and has no idea what it means.
 
@@ -32,14 +33,26 @@ I'm still learning too. So let's figure this out together.
 **Never heard of NLP before?**
 → Start with [START-HERE.md](START-HERE.md). It explains everything from scratch before you touch any of the resources below.
 
+**Want to get hands-on immediately?**
+→ Jump to [QUICK-START.md](QUICK-START.md) — copy-paste code that runs in 5 minutes.
+
 **Know a bit about NLP but new to Indonesian NLP?**
 → Read the [State of Indonesian NLP](#-state-of-indonesian-nlp-2025) section first, then jump to whatever task you're interested in.
+
+**Looking for resources by what you want to build?**
+→ See [BY-USE-CASE.md](BY-USE-CASE.md) — sentiment analyzer, chatbot, NER, summarization, and more.
+
+**Coming from a specific background (student, developer, researcher)?**
+→ See [BY-ROLE.md](BY-ROLE.md) for a path tailored to your starting point.
 
 **Looking for a specific thing?**
 → Use the Table of Contents below to jump straight there.
 
 **Want to know what to learn in what order?**
 → Check [ROADMAP.md](ROADMAP.md) for step-by-step learning paths.
+
+**Hitting errors or something not working?**
+→ Check [COMMON-PITFALLS.md](COMMON-PITFALLS.md) — most common problems are covered there.
 
 ---
 

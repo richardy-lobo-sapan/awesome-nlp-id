@@ -7,6 +7,15 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) · Versions: `Y
 
 ## [Unreleased]
 
+## [2025.05b] — 2025-05-21
+
+### Added
+- QUICK-START.md — copy-paste code examples for 6 common tasks
+- BY-USE-CASE.md — find your starting point by what you want to build
+- BY-ROLE.md — tailored paths for students, developers, researchers, linguists
+- COMMON-PITFALLS.md — solutions to the most common errors and problems
+- GETTING-HELP.md — how to get support and contribute
+
 ---
 
 ## [2025.05] — 2025-05-21 — Initial Release 🎉
