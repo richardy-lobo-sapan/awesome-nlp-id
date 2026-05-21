@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **By [Richardy Lobo Sapan](https://richardy-lobo-sapan.github.io)** · [GitHub](https://github.com/richardy-lobo-sapan) · [LinkedIn](https://linkedin.com/in/richardylobosapan)
-*Contributor to [NusaCrowd](https://github.com/IndoNLP/nusacrowd) & [SEACrowd](https://github.com/SEACrowd)*
+
 
 ---
 
@@ -19,7 +19,7 @@ I was confused by the buzzwords. I didn't know the difference between a dataset 
 
 This repo is what I wish had existed back then.
 
-It's not trying to replace [NusaCrowd](https://github.com/IndoNLP/nusacrowd) or [SEACrowd](https://github.com/SEACrowd) — those are incredible projects with hundreds of datasets built by teams of researchers (I contributed to both!). If you're a researcher who knows what you're doing, go there.
+It's not trying to replace resources such as [NusaCrowd](https://github.com/IndoNLP/nusacrowd) or [SEACrowd](https://github.com/SEACrowd) — those are incredible projects with hundreds of datasets built by teams of researchers (I contributed too). If you're a researcher who knows what you're doing, go there.
 
 This is for everyone else. The student who just heard about NLP for the first time. The developer who wants to add Indonesian text features to their app. The person who keeps seeing "IndoBERT" and has no idea what it means.
 
