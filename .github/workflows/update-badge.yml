@@ -1,0 +1,21 @@
+name: Update Last Modified Badge
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  badge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Badge auto-updates via shields.io
+        run: |
+          echo "Last commit badge powered by shields.io — updates automatically on every push."
+          echo "Badge URL: https://img.shields.io/github/last-commit/richardy-lobo-sapan/awesome-nlp-id"
