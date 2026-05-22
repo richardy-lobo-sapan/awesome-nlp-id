@@ -7,6 +7,38 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) · Versions: `Y
 
 ## [Unreleased]
 
+## [2026.05b] — 2026-05-22
+
+### Added
+**New Sections**
+- Legal NLP: Indo-Law (22,630 court documents, ir-nlp-csui), Indonesian Legal KG moved here from Knowledge Graphs, Granularity-aware Legal QA
+- Spelling & Text Normalization: SALTIK (ir-nlp-csui), STIF-Indonesia moved here from Paraphrase
+
+**Datasets — Code-switching**
+- Indonesian-English Code-mixed Twitter (ir-nlp-csui/id-en-code-mixed)
+- Code-mixed Javanese-Indonesian (SEACrowd/code_mixed_jv_id)
+
+**Datasets — Regional Languages**
+- NgokoKrama — Indonesian, Javanese Ngoko & Krama parallel corpus (ir-nlp-csui)
+
+**Datasets — Lexical Resources**
+- Parallel Corpus for Lexical Normalization (ir-nlp-csui)
+
+**Datasets — Question Answering**
+- StatMetaQA — Indonesian statistical meta QA (ir-nlp-csui)
+
+**Tools — Linguistic Analysis**
+- IDN Tagged Corpus CSUI — POS-tagged Indonesian corpus (ir-nlp-csui)
+
+### Updated
+**Research Gaps**
+- Legal NLP — updated to reflect Indo-Law and Legal KG as existing foundations
+- Code-switching — added back as gap (resources exist but limited in scale)
+- Multimodal — added back as gap (SEA-VL and MSVD-Indonesian exist but sparse)
+
+**Table of Contents**
+- Added Legal NLP and Spelling & Text Normalization sections
+
 ## [2026.05] — 2026-05-22 — Major cleanup & update
 
 ### Fixed
