@@ -536,10 +536,10 @@ I'm still learning too. So let's figure this out together.
 - **[IndoMMLU](https://huggingface.co/datasets/indolem/IndoMMLU)** `🟢` `🔓` `📦` `📄`
   Already listed under Benchmarks — also includes multimodal assessment questions covering images and diagrams from Indonesian school exams.
 
-- **Conceptual Captions (Indonesian)**   
-  Conceptual Captions (CC3M/CC12M) translated to Indonesian — useful for training vision-language models on Indonesian image-caption pairs. Part of the broader community effort to bring multimodal data to Indonesian AI.
-  **[CC3M: 3M image-caption pairs translated to Indonesian](https://github.com/google-research-datasets/conceptual-captions)** `🟡` `🔓` 
-  **[CC12M: 12M image-caption pairs for vision-language pre-training](https://github.com/google-research-datasets/conceptual-12m)** `🟡` `🔓` 
+- **Conceptual Captions (Indonesian)** `🟡` `🔓`
+  Machine-translated Indonesian image-caption pairs from Google's Conceptual Captions dataset. Useful for training vision-language models on Indonesian captions. Part of the broader community effort to bring multimodal data to Indonesian AI.
+  - [CC3M (3M pairs)](https://github.com/google-research-datasets/conceptual-captions)
+  - [CC12M (12M pairs)](https://github.com/google-research-datasets/conceptual-12m) 
 
 
 
