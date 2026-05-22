@@ -73,7 +73,7 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) · Versions: `Y
 - SEACrowd transparency note added near Datasets header
 - IndoSum now links to SEACrowd/indosum alongside original GitHub
 
-## [2025.05f] — 2025-05-21 — Final additions
+## [2026.05f] — 2026-05-21 — Final additions
 
 ### Added
 **Benchmarks — NLU**
@@ -83,7 +83,7 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) · Versions: `Y
 - IndoLEM / IndoBERT (2020) — Koto et al.
 - "One Country, 700+ Languages" (ACL 2022) — Aji, Winata, Koto, Cahyawijaya et al.
 
-## [2025.05e] — 2025-05-21
+## [2026.05e] — 2026-05-21
 
 ### Added
 **Datasets — Knowledge Graphs**
@@ -93,7 +93,7 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) · Versions: `Y
 **Research Gaps**
 - Updated Legal NLP gap with pointers to Fariz Darari's existing work at UI
 
-## [2025.05d] — 2025-05-21
+## [2026.05d] — 2026-05-21
 
 ### Added
 **Models**
@@ -117,7 +117,7 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) · Versions: `Y
 - Updated model comparison table with Sahabat-AI and NusaBERT
 - Updated TOC with new sections
 
-## [2025.05c] — 2025-05-21
+## [2026.05c] — 2026-05-21
 
 ### Added
 **Datasets — New Sections**
@@ -136,7 +136,7 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) · Versions: `Y
 **Structure**
 - Updated Table of Contents with new sections
 
-## [2025.05b] — 2025-05-21
+## [2026.05b] — 2026-05-21
 
 ### Added
 - QUICK-START.md — copy-paste code examples for 6 common tasks
@@ -147,7 +147,7 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) · Versions: `Y
 
 ---
 
-## [2025.05] — 2025-05-21 — Initial Release 🎉
+## [2026.05] — 2026-05-21 — Initial Release 🎉
 
 ### Added
 **Core files**
