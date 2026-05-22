@@ -37,7 +37,7 @@ I'm still learning too. So let's figure this out together.
 → Jump to [QUICK-START.md](QUICK-START.md) — copy-paste code that runs in 5 minutes.
 
 **Know a bit about NLP but new to Indonesian NLP?**
-→ Read the [State of Indonesian NLP](#-state-of-indonesian-nlp-2025) section first, then jump to whatever task you're interested in.
+→ Read the [State of Indonesian NLP](#-state-of-indonesian-nlp-2026) section first, then jump to whatever task you're interested in.
 
 **Looking for resources by what you want to build?**
 → See [BY-USE-CASE.md](BY-USE-CASE.md) — sentiment analyzer, chatbot, NER, summarization, and more.
@@ -60,32 +60,32 @@ I'm still learning too. So let's figure this out together.
 
 | Date | Resource | Category |
 |------|----------|----------|
-| 2025-05 | IndoLEM | Benchmarks — NLU |
-| 2025-05 | "One Country, 700+ Languages" | Research Papers — Foundational |
-| 2025-05 | Indonesian Legal KG + VizKG | Datasets — Knowledge Graphs |
-| 2025-05 | Sahabat-AI (GoTo) | Models — Generative LLMs |
-| 2025-05 | NusaBERT | Models — Encoder |
-| 2025-05 | Indonesian Whisperer | Tools — ASR |
-| 2025-05 | SEA-VL | Datasets — Multimodal |
-| 2025-05 | SEADialogues | Datasets — Dialogue |
-| 2025-05 | IndoToD | Benchmarks — NLU |
-| 2025-05 | IndoRobusta | Datasets — Code-switching |
-| 2025-05 | awesome-indonesian-llm-dataset | Tutorials — Unified Hubs |
-| 2025-05 | OSCAR, CC-100, CulturaX | Datasets — Web Corpora |
-| 2025-05 | IndoWiki Knowledge Graph | Datasets — Knowledge Graphs |
-| 2025-05 | MSVD-Indonesian | Datasets — Multimodal |
-| 2025-05 | PAWS-ID, ParaNMT | Datasets — Paraphrase |
-| 2025-05 | IndoCareer, IndoCloze | Benchmarks — NLU |
-| 2025-05 | IndoSafety | Benchmarks — Safety & Culture |
-| 2025-05 | LoraxBench | Benchmarks — Regional Languages |
-| 2025-05 | NusaAksara | Datasets — Regional Languages |
-| 2025-05 | Kancil LLM | Models — Generative LLMs |
-| 2025-05 | Cendol, Komodo | Models — Generative LLMs |
-| 2025-05 | NusaCrowd (137 datasets) | Datasets — Unified Hub |
+| 2026-05 | IndoLEM | Benchmarks — NLU |
+| 2026-05 | "One Country, 700+ Languages" | Research Papers — Foundational |
+| 2026-05 | Indonesian Legal KG + VizKG | Datasets — Knowledge Graphs |
+| 2026-05 | Sahabat-AI (GoTo) | Models — Generative LLMs |
+| 2026-05 | NusaBERT | Models — Encoder |
+| 2026-05 | Indonesian Whisperer | Tools — ASR |
+| 2026-05 | SEA-VL | Datasets — Multimodal |
+| 2026-05 | SEADialogues | Datasets — Dialogue |
+| 2026-05 | IndoToD | Benchmarks — NLU |
+| 2026-05 | IndoRobusta | Datasets — Code-switching |
+| 2026-05 | awesome-indonesian-llm-dataset | Tutorials — Unified Hubs |
+| 2026-05 | OSCAR, CC-100, CulturaX | Datasets — Web Corpora |
+| 2026-05 | IndoWiki Knowledge Graph | Datasets — Knowledge Graphs |
+| 2026-05 | MSVD-Indonesian | Datasets — Multimodal |
+| 2026-05 | PAWS-ID, ParaNMT | Datasets — Paraphrase |
+| 2026-05 | IndoCareer, IndoCloze | Benchmarks — NLU |
+| 2026-05 | IndoSafety | Benchmarks — Safety & Culture |
+| 2026-05 | LoraxBench | Benchmarks — Regional Languages |
+| 2026-05 | NusaAksara | Datasets — Regional Languages |
+| 2026-05 | Kancil LLM | Models — Generative LLMs |
+| 2026-05 | Cendol, Komodo | Models — Generative LLMs |
+| 2026-05 | NusaCrowd (137 datasets) | Datasets — Unified Hub |
 
 ---
 
-## 🌏 State of Indonesian NLP (2025)
+## 🌏 State of Indonesian NLP (2026)
 
 *Here's a plain-English picture of where things are right now — the stuff nobody explains to you when you're starting out.*
 
@@ -145,7 +145,8 @@ I'm still learning too. So let's figure this out together.
 | 3 | **NusaCrowd** | 137 Indonesian datasets in one place with standardized loaders. The biggest collection that exists. | [GitHub](https://github.com/IndoNLP/nusacrowd) |
 | 4 | **SmSA** | The cleanest Indonesian sentiment analysis dataset. Great first dataset to work with. | [HuggingFace](https://huggingface.co/datasets/indonlp/indonlu) |
 | 5 | **Sastrawi** | The standard Indonesian stemmer (strips words to their root). Almost every Indonesian NLP pipeline uses this. | [GitHub](https://github.com/sastrawi/sastrawi) |
-| 6 | **Cendol** | The most capable open Indonesian LLM right now if you want to experiment with chat/instruction tasks. | [HuggingFace](https://huggingface.co/indonlp/cendol-llama2-7b) |
+| 6 | **Cendol** | A strong open Indonesian LLM — good starting point for chat and instruction tasks. Lighter to run than the alternatives. | [HuggingFace](https://huggingface.co/indonlp/cendol-llama2-7b) |
+| 6b | **Sahabat-AI** | GoTo's (Gojek/Tokopedia) Indonesian LLM, up to 70B — more powerful but needs significantly more compute. | [HuggingFace](https://huggingface.co/GoToCompany) |
 | 7 | **IndoNLG** | The go-to benchmark if your task involves generating text (summarization, translation, dialogue). | [GitHub](https://github.com/indobenchmark/indonlg) |
 
 ---
@@ -153,6 +154,8 @@ I'm still learning too. So let's figure this out together.
 ## 📂 Datasets
 
 *Datasets are collections of labeled text used to train or test NLP models. Think of them as the textbooks + answer keys that AI learns from. ([What's a dataset?](START-HERE.md#what-is-a-dataset))*
+
+> 📌 **A note on completeness:** Most datasets listed here are also standardized and indexed in the [SEACrowd Catalogue](https://seacrowd.github.io/seacrowd-catalogue/) — a community effort covering 1,000+ SEA language datasets with quality-checked dataloaders. If you want the most exhaustive collection, filter the catalogue by language `id`. This list exists for a different reason: to explain what these datasets are, who they're for, and where to start. Think of SEACrowd as the full library, and this as the reading guide.
 
 ### Legend
 | Badge | Meaning |
@@ -175,7 +178,7 @@ I'm still learning too. So let's figure this out together.
   12 different Indonesian NLP datasets in one package — covering emotion detection, sentiment, NER, POS tagging, and more. The standard starting point that most Indonesian NLP papers use as their baseline. If you're not sure where to start for classification, start here.
   Size: varies per task | Updated: 2024
 
-- **[ID Clickbait](https://huggingface.co/datasets/id_clickbait)** `🟡` `🔓` `📦`
+- **[ID Clickbait](https://huggingface.co/datasets/SEACrowd/id_clickbait)** `🟡` `🔓` `📦`
   Indonesian news headlines labeled as clickbait or not. Useful if you're building anything around news or content filtering.
 
 - **[Indonesian Emotion Twitter](https://github.com/meisaputri21/Indonesian-Twitter-Emotion-Dataset)** `🟡` `🔓` `📄`
@@ -218,6 +221,14 @@ I'm still learning too. So let's figure this out together.
 - **[Product NER (ProNER)](https://github.com/dziem/proner-labeled-text)** `🟡` `🔓`
   NER dataset focused on product names — useful if you're building something e-commerce related (very relevant for Indonesian market).
 
+- **[IDNer News 2K](https://huggingface.co/datasets/SEACrowd/idner_news_2k)** `🟢` `🔓` `📦` `📄`
+  Re-annotated Indonesian news NER dataset with standardized IOB tags. Cleaner and more consistent than NER-Grit — good alternative if you need better annotation quality.
+  Size: ~2k sentences | Standardized via SEACrowd
+
+- **[IndQNER](https://huggingface.co/datasets/SEACrowd/indqner)** `🟢` `🔓` `📦` `📄`
+  NER dataset from the Indonesian translation of the Quran. Unique religious/classical domain — useful if you're building applications around Islamic text or formal historical Indonesian.
+  Size: ~2k sentences
+
 ---
 
 ### Question Answering
@@ -227,7 +238,7 @@ I'm still learning too. So let's figure this out together.
 - **[TyDiQA](https://github.com/google-research-datasets/tydiqa)** `🟢` `🔓 Apache 2.0` `📦` `📄`
   Google's multilingual QA benchmark. Indonesian is one of 11 languages included. This is the gold standard for Indonesian QA — if you're doing QA research, this is where you compare yourself.
 
-- **[IndoQA](https://huggingface.co/datasets/indonlp/IndoQA)** `🟢` `🔓` `📦` `📄`
+- **[IndoQA](https://huggingface.co/datasets/SEACrowd/indoqa)** `🟢` `🔓` `📦` `📄`
   Monolingual Indonesian QA dataset built specifically for extractive and retrieval-based QA tasks.
 
 ---
@@ -236,11 +247,11 @@ I'm still learning too. So let's figure this out together.
 
 *Compressing a long article into a short summary. Very practical — think auto-summarizing Kompas or Tempo articles.*
 
-- **[IndoSum](https://github.com/kata-ai/indosum)** `🟡` `🔓` `📄`
+- **[IndoSum](https://github.com/kata-ai/indosum)** · [📦 SEACrowd](https://huggingface.co/datasets/SEACrowd/indosum) `🟡` `🔓` `📄`
   Indonesian news summarization dataset by Kata.ai (one of Indonesia's leading NLP companies). Good quality, well-documented.
   Size: ~20k article-summary pairs
 
-- **[Liputan6](https://huggingface.co/datasets/id_liputan6)** `🟡` `🔓` `📦`
+- **[Liputan6](https://huggingface.co/datasets/SEACrowd/liputan6)** `🟡` `🔓` `📦`
   Large-scale summarization dataset scraped from Liputan6. Big enough to train a model from scratch on if you need to. Works for both extractive and abstractive approaches.
   Size: ~215k pairs
 
@@ -250,7 +261,7 @@ I'm still learning too. So let's figure this out together.
 
 *Translating between languages. In Indonesian NLP this includes translating between Bahasa Indonesia and English, but also between Indonesian and local languages like Javanese or Sundanese.*
 
-- **[NusaX-MT](https://huggingface.co/datasets/indonlp/NusaX-MT)** `🟢` `🔓 CC-BY-SA` `📦` `📄`
+- **[NusaX-MT](https://huggingface.co/datasets/SEACrowd/nusax_mt)** `🟢` `🔓 CC-BY-SA` `📦` `📄`
   Parallel translation corpus across Indonesian + 10 local languages. Human-translated by native speakers — meaning the quality is high, not machine-generated noise. Best resource if you need cross-lingual or regional MT.
   Size: ~5k sentences per language pair | Languages: 12
 
@@ -265,6 +276,9 @@ I'm still learning too. So let's figure this out together.
 
 - **[PANL-BPPT](https://huggingface.co/datasets/id_panl_bppt)** `🟡` `🔓` `📦`
   Indonesian-English parallel corpus from the Technology Assessment Agency of Indonesia (BPPT).
+
+- **[Indo General MT](https://huggingface.co/datasets/SEACrowd/indo_general_mt_en_id)** `🟢` `🔓` `📦` `📄`
+  Multi-domain English-Indonesian MT dataset with standardized train/val/test splits. Benchmarked against Google Translate across multiple domains. Good for evaluating domain generalization of translation models.
 
 ---
 
@@ -303,6 +317,14 @@ I'm still learning too. So let's figure this out together.
 
 - **[CoVoST2 (Indonesian)](https://huggingface.co/datasets/covost2)** `🟢` `🔓` `📦`
   Speech-to-text translation dataset. Indonesian → English direction available. Useful if you're building speech translation, not just transcription.
+
+- **[IndSpeech News LVCSR](https://huggingface.co/datasets/SEACrowd/indspeech_news_lvcsr)** `🟢` `🔓` `📦` `📄`
+  The first large-vocabulary continuous speech recognition corpus for Indonesian. 40+ hours of speech from 400 speakers, developed by Telkom Indonesia's R&D division in collaboration with ATR Japan. Good for training serious ASR models.
+  Size: 40+ hours | Speakers: 400
+
+- **[ASR-INDOCSC](https://huggingface.co/datasets/SEACrowd/asr_indocsc)** `🟢` `🔓 CC-BY-NC-ND` `📦`
+  4.5 hours of transcribed Indonesian conversational speech across everyday topics (sports, food, movies, family). Complements LVCSR's news domain with natural spoken dialogue.
+  Size: 4.54 hours
 
 ---
 
@@ -358,6 +380,9 @@ I'm still learning too. So let's figure this out together.
 - **[Acronym Dictionary](https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/acronym.txt)** `🟡` `🔓`
   Common Indonesian acronyms and their expansions. Useful for preprocessing formal Indonesian text.
 
+- **[Barasa](https://huggingface.co/datasets/SEACrowd/barasa)** `🟢` `🔓` `📦`
+  Indonesian SentiWordNet — word-level positivity, negativity, and objectivity scores aligned with WordNet 3.0 synsets. Useful complement to InSet for rule-based or hybrid sentiment approaches.
+
 
 ### 1.12 Dialogue & Conversational
 
@@ -375,11 +400,16 @@ I'm still learning too. So let's figure this out together.
 
 - **[IndoRobusta](https://github.com/muhammadfaridadilazuarda/IndoRobusta)** `🟡` `🔓` `📄`
   Framework and dataset for evaluating code-mixing robustness in Indonesian NLP. Covers Indonesian mixed with English, Sundanese, Javanese, and Malay. Reveals that models handle Indonesian-English mixing better than local language mixing. ACL 2022.
-  Note: code-switching resources are one of the biggest gaps in Indonesian NLP — see Research Gaps section.
+  Note: code-switching resources remain limited in Indonesian NLP — see Research Gaps section.
+
+- **[Code-mixed Javanese-Indonesian](https://huggingface.co/datasets/SEACrowd/code_mixed_jv_id)** `🟢` `🔓` `📦` `📄`
+  Sentiment analysis and machine translation dataset for Javanese-Indonesian code-mixed text. One of the few datasets specifically targeting real-world code-mixing patterns between a local language and Bahasa Indonesia.
 
 ### 1.14 Web Corpora & Large Text Collections
 
 *Large-scale text collections for pretraining or building general Indonesian language resources. These are usually too big for fine-tuning but important for training models from scratch.*
+
+> ⚠️ **Advanced users only.** If you're just starting out, you don't need any of these. They're for people pretraining language models from scratch — a resource-intensive process requiring significant GPU compute. Most practitioners use existing pre-trained models (like IndoBERT or Cendol) instead.
 
 - **[OSCAR (Indonesian)](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301)** `🟢` `🔓` `📦`
   CommonCrawl-based Indonesian text corpus. ~4B word tokens. One of the largest freely available Indonesian text collections. Good for pretraining.
@@ -399,6 +429,9 @@ I'm still learning too. So let's figure this out together.
 - **[Leipzig Corpora (Indonesian)](https://corpora.uni-leipzig.de/en?corpusId=ind_mixed_2013)** `🟡` `🔓`
   74M+ sentences, 1.2B+ tokens. Mix of news and web text. Good baseline corpus.
 
+- **[Indo4B](https://huggingface.co/datasets/SEACrowd/indo4b)** `🟡` `🔓` `📦`
+  The actual pretraining corpus used to train IndoBERT — 3.6B words, ~250M sentences from 12 sources covering both formal and colloquial Indonesian. Useful historical reference for understanding what IndoBERT was trained on.
+
 ---
 
 ### 1.15 Paraphrase & Text Similarity
@@ -408,11 +441,11 @@ I'm still learning too. So let's figure this out together.
 - **[PAWS-ID](https://github.com/Wikidepia/indonesia_dataset/tree/master/paraphrase/PAWS)** `🟡` `🔓`
   Indonesian translation of Google's PAWS dataset. 100K human-labeled paraphrase pairs. Tests whether word order and structure changes meaning.
 
-- **[Quora Paraphrasing ID](https://github.com/louisowen6/quora_paraphrasing_id)** `🟡` `🔓`
+- **[Quora Paraphrasing ID](https://huggingface.co/datasets/SEACrowd/id_qqp)** `🟡` `🔓`
   Indonesian adaptation of Quora question pairs — useful for duplicate question detection and semantic similarity.
 
-- **[ParaNMT-ID](https://stor.akmal.dev/paranmt-5m.jsonl.zst)** `🟡` `🔓`
-  Indonesian subset of ParaNMT-50M. Large-scale paraphrase pairs generated via neural machine translation.
+- **[ParaNMT-ID](https://github.com/Wikidepia/indonesian_datasets)** `🟡` `🔓`
+  Indonesian translation of ParaNMT-50M — large-scale paraphrase pairs generated via neural machine translation. Available in Wikidepia's Indonesian datasets collection (see `paranmt` folder).
 
 - **[STIF-Indonesia](https://github.com/haryoa/stif-indonesia)** `🟡` `🔓`
   Dataset for Indonesian formal-informal style conversion. Useful for text normalization of social media content.
@@ -422,6 +455,8 @@ I'm still learning too. So let's figure this out together.
 ### 1.16 Knowledge Graphs
 
 *Structured knowledge resources linking Indonesian entities and concepts — useful for question answering, information extraction, and knowledge-grounded NLP.*
+
+> 📌 **Specialized use.** Knowledge graphs are primarily useful for advanced research applications like entity linking, relation extraction, or building knowledge-augmented QA systems. If you're just getting started, you likely won't need these yet.
 
 - **[IndoWiki](https://github.com/IgoRamli/IndoWiki/)** `🟡` `🔓`
   Knowledge graph built from WikiData aligned with Indonesian Wikipedia. 533K+ entities, 939 relations, 2.6M+ triplets. Both transductive and inductive splits available.
@@ -455,8 +490,8 @@ I'm still learning too. So let's figure this out together.
 - **[IndoMMLU](https://huggingface.co/datasets/indolem/IndoMMLU)** `🟢` `🔓` `📦` `📄`
   Already listed under Benchmarks — also includes multimodal assessment questions covering images and diagrams from Indonesian school exams.
 
-- **[CC3M / CC12M (Indonesian)](https://stor.akmal.dev/cc3m-train.jsonl.zst)** `🟡` `🔓`
-  3M and 12M image-caption pairs translated to Indonesian. Useful for training vision-language models on Indonesian captions.
+- **[CC3M / CC12M (Indonesian)](https://huggingface.co/datasets/SEACrowd/cc3m_id)** `🟡` `🔓`
+  Conceptual Captions (CC3M/CC12M) translated to Indonesian — useful for training vision-language models on Indonesian image-caption pairs. Part of the broader community effort to bring multimodal data to Indonesian AI.
 
 
 
@@ -597,7 +632,7 @@ I'm still learning too. So let's figure this out together.
 - **[IndoSafety](https://arxiv.org/abs/2506.02573)** `🟢` `📄`
   Tests whether Indonesian LLMs produce culturally safe and appropriate responses. Covers informal registers, regional languages, and culturally specific norms. 2025 — a relatively new but important area.
 
-- **[IndoCulture](https://huggingface.co/datasets/indonlp/IndoCulture)** `🟢` `📦` `📄`
+- **[IndoCulture](https://huggingface.co/datasets/indolem/IndoCulture)** `🟢` `📦` `📄`
   Tests cultural commonsense reasoning across 11 Indonesian provinces. Interesting because it checks if a model understands Indonesian cultural context, not just language. TACL 2024.
 
 - **[COPAL-ID](https://github.com/haryoa/COPAL)** `🟢` `📄`
@@ -620,8 +655,7 @@ I'm still learning too. So let's figure this out together.
 ### Full NLP Frameworks
 
 - **[spaCy (Indonesian pipeline)](https://spacy.io/models/id)** `🟢` `🔓 MIT`
-  spaCy now has an Indonesian model. Good choice if you want a production-ready NLP pipeline.
-  Getting started: [Tutorial in Bahasa Indonesia](https://bagas.me/spacy-bahasa-indonesia.html)
+  spaCy now has an Indonesian model. Good choice if you want a production-ready NLP pipeline. See the [official spaCy docs](https://spacy.io/models/id) to get started.
 
 - **[Flair](https://github.com/flairNLP/flair)** `🟢` `🔓 MIT`
   Multilingual NLP framework with Indonesian support. Particularly good for NER and sequence labeling.
@@ -634,8 +668,11 @@ I'm still learning too. So let's figure this out together.
 - **[INDRA](https://github.com/davidmoeljadi/INDRA)** `🟡` `🔓`
   Indonesian Resource Grammar for deep linguistic analysis. More research-oriented than production use.
 
-- **[MorphInd](http://septinalarasati.com/morphind/)** `🟡` `🔒`
-  Indonesian Morphological Analyzer. Research tool — contact authors for access.
+- **[MorphInd](http://septinalarasati.com/morphind/)** `🔴 DEPRECATED`
+  Indonesian Morphological Analyzer. Original domain is no longer accessible — listed here for historical reference only.
+
+- **[Aksara](https://github.com/bangkitbelajar/aksara-nlp)** `🟢` `🔓 MIT`
+  The modern replacement for MorphInd. Indonesian morphological analyzer conforming to Universal Dependencies v2. Handles word segmentation, lemmatization, POS tagging, and morphological features. Outperforms MorphInd on all four tasks. Better choice for any current project.
 
 ### Data Collection
 
@@ -702,9 +739,7 @@ These are the papers that defined Indonesian NLP as a field. If you're going to 
 ### Blog Posts & Articles
 
 - **[POS Tagging with Flair (Indonesian)](https://medium.com/@puspitakaban/pos-tagging-bahasa-indonesia-dengan-flair-nlp-c12e45542860)** — Practical tutorial in Bahasa Indonesia.
-- **[spaCy Indonesian Tutorial](https://bagas.me/spacy-bahasa-indonesia.html)** — Getting started with spaCy for Indonesian.
-- **[FastText Indonesian Word Embedding](https://structilmy.com/2019/08/membuat-model-word-embedding-fasttext-bahasa-indonesia/)** — Building FastText embeddings for Indonesian.
-- **[Awesome Indonesian LLM Dataset (2025)](https://medium.com/@irfanfadhullah/awesome-indonesian-llm-dataset-a-game-changer-for-indonesian-ai-13433d33a1b5)** — Overview of the Indonesian NLP Hugging Face ecosystem.
+- **[Awesome Indonesian LLM Dataset (2026)](https://medium.com/@irfanfadhullah/awesome-indonesian-llm-dataset-a-game-changer-for-indonesian-ai-13433d33a1b5)** — Overview of the Indonesian NLP Hugging Face ecosystem by Irfan Fadhullah.
 
 ### Unified Resource Hubs
 
@@ -720,9 +755,24 @@ These are the "go deeper" destinations once you've outgrown this list:
 
 ## 🌐 Communities
 
-- **[IndoNLP](https://indonlp.github.io)** — Academic community behind most major Indonesian NLP benchmarks.
-- **[SEACrowd Discord](https://github.com/SEACrowd)** — Active community working on SEA NLP including Indonesian. Good place to find collaborators.
-- **[Hugging Face Indonesian NLP Org](https://huggingface.co/indonesian-nlp)** — Open collaboration hub on HF.
+### SEACrowd — the community behind much of Indonesian NLP
+
+[SEACrowd](https://seacrowd.org) is a grassroots-led non-profit building AI tools and resources for Southeast Asia, by Southeast Asians. They're responsible for standardizing and maintaining hundreds of Indonesian NLP datasets, and they're actively welcoming new contributors at all levels.
+
+**Get involved:**
+- 🤝 [Contribute](https://seacrowd.org/contribute) — research/technical, language & culture, community & outreach
+- 🎓 [Apprenticeship Program](https://seacrowd.org/apprenticeship) — structured path for newcomers to NLP research
+- 📋 [Ongoing Projects](https://seacrowd.org/projects) — see what's being built right now
+
+**Find them on:**
+[Discord](https://discord.gg/XXRHFuvkTA) · [GitHub](https://github.com/seacrowd) · [Twitter/X](https://twitter.com/seacrowd) · [LinkedIn](https://www.linkedin.com/company/seacrowd/) · [Bluesky](https://bsky.app/profile/seacrowd.bsky.social) · [Mailing List](https://groups.google.com/u/0/g/seacrowd) · [Email](mailto:seacrowd.research@gmail.com)
+
+---
+
+### Other communities
+
+- **[IndoNLP](https://indonlp.github.io)** — Academic research community behind IndoNLU, IndoNLG, NusaCrowd, and most major Indonesian NLP benchmarks.
+- **[Hugging Face Indonesian NLP Org](https://huggingface.co/indonesian-nlp)** — Open collaboration hub for Indonesian datasets and models on HuggingFace.
 
 > Know of an active Indonesian NLP Telegram group, forum, or Discord? [Open an issue](https://github.com/richardy-lobo-sapan/awesome-nlp-id/issues) to add it!
 
@@ -732,14 +782,12 @@ These are the "go deeper" destinations once you've outgrown this list:
 
 *These are areas where Indonesian NLP resources are still significantly lacking. If you're looking for a thesis topic or research direction, these are real open problems.*
 
-- **Legal NLP** — No large-scale Indonesian legal corpus or benchmark. Huge practical demand from law firms, government, and compliance. The closest existing work is Fariz Darari et al.'s [Indonesian Legal Knowledge Graph](https://www.researchgate.net/publication/372109353_A_Hybrid_Virtual_Assistant_for_Legal_Domain_Based_on_Information_Retrieval_and_Knowledge_Graphs) and [granularity-aware legal QA](https://ijain.org/index.php/IJAIN/article/view/1105) at UI — important foundations but far from a complete benchmark.
-- **Medical / Clinical NLP** — No public Indonesian clinical notes or medical QA dataset. Critical for healthcare AI in Indonesia.
-- **Code-switching** — Bahasa Indonesia mixed with English/Javanese/Sundanese is extremely common on social media but almost completely absent from datasets.
-- **Dialect variation** — Almost all datasets use formal Bahasa Indonesia. Jaksel, Gaul, regional dialects — mostly uncovered.
-- **Speech synthesis (TTS)** — ASR (speech-to-text) has decent resources; TTS (text-to-speech) for Indonesian, especially regional accents, is still limited.
-- **Long-form document understanding** — No Indonesian equivalent of contract understanding, scientific paper QA, or legal document analysis benchmarks.
-- **Multimodal NLP** — Indonesian image captioning and visual QA datasets essentially don't exist.
-- **Safety & alignment data** — IndoSafety (2025) is a start, but RLHF preference data in Indonesian is nearly absent.
+- **Legal NLP** — No large-scale Indonesian legal corpus or benchmark. Huge practical demand from law firms, government, and compliance. The closest existing work is Fariz Darari et al.'s [Indonesian Legal Knowledge Graph](https://www.researchgate.net/publication/372109353_A_Hybrid_Virtual_Assistant_for_Legal_Domain_Based_on_Information_Retrieval_and_Knowledge_Graphs) and [granularity-aware legal QA](https://ijain.org/index.php/IJAIN/article/view/1105) at UI — important foundations, but a large-scale benchmark and corpus remain absent.
+- **Medical / Clinical NLP** — No public Indonesian clinical notes or medical QA dataset. Critical for healthcare AI in Indonesia and one of the most practically impactful gaps in the field.
+- **Dialect variation** — Almost all datasets use formal Bahasa Indonesia. Regional dialects and informal registers (Jaksel, Gaul, colloquial Javanese-Indonesian) are mostly uncovered — a significant gap given how Indonesians actually communicate.
+- **Speech synthesis (TTS)** — ASR (speech-to-text) has growing resources; TTS (text-to-speech) for Indonesian, especially regional accents and minority languages, is still very limited.
+- **Long-form document understanding** — No Indonesian equivalent of contract understanding, scientific paper QA, or multi-document summarization benchmarks.
+- **Safety & alignment data** — IndoSafety (2025) is a meaningful start, but RLHF preference data and red-teaming datasets in Indonesian are nearly absent.
 
 ---
 

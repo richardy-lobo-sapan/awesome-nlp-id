@@ -7,6 +7,40 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) · Versions: `Y
 
 ## [Unreleased]
 
+## [2026.05] — 2026-05-22 — Major cleanup & update
+
+### Fixed
+- All dates updated from 2025-05 to 2026-05 throughout
+- State of Indonesian NLP title updated to (2026)
+- Dead links fixed: id_clickbait, id_liputan6, NusaX-MT, IndoCulture, IndoQA, Quora Paraphrasing ID → all now pointing to SEACrowd standardized versions
+- stor.akmal.dev domain dead — ParaNMT-ID redirected to Wikidepia/indonesian_datasets
+- CC3M/CC12M link updated to SEACrowd/cc3m_id
+- MorphInd flagged 🔴 DEPRECATED (domain dead)
+- Removed dead tutorial links: bagas.me, structilmy.com
+
+### Added
+**Datasets**
+- IDNer News 2K (SEACrowd/idner_news_2k) — standardized NER
+- IndQNER (SEACrowd/indqner) — Quran-domain NER
+- Indo General MT (SEACrowd/indo_general_mt_en_id) — multi-domain EN-ID MT
+- IndSpeech News LVCSR (SEACrowd/indspeech_news_lvcsr) — 40+ hour ASR corpus
+- ASR-INDOCSC (SEACrowd/asr_indocsc) — conversational ASR
+- Code-mixed Javanese-Indonesian (SEACrowd/code_mixed_jv_id)
+- Barasa (SEACrowd/barasa) — Indonesian SentiWordNet
+- Indo4B (SEACrowd/indo4b) — IndoBERT pretraining corpus
+
+**Tools**
+- Aksara — modern replacement for MorphInd, conforms to UD v2
+
+### Updated
+- Research Gaps — removed code-switching and multimodal (now covered in repo), updated others
+- Web Corpora section — added ⚠️ Advanced users only warning
+- Knowledge Graphs section — added specialized use context note
+- Essential 7 — Cendol and Sahabat-AI both mentioned with compute tradeoff note
+- Communities — full SEACrowd block with all social links, apprenticeship, programs
+- SEACrowd transparency note added near Datasets header
+- IndoSum now links to SEACrowd/indosum alongside original GitHub
+
 ## [2025.05f] — 2025-05-21 — Final additions
 
 ### Added
