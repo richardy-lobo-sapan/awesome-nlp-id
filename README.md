@@ -25,6 +25,8 @@ This is for everyone else. The student who just heard about NLP for the first ti
 
 I'm still learning too. So let's figure this out together.
 
+- Related Article [I Spent Days Lost in Indonesian NLP Resources, so I Built a Better Starting Point](https://richardylobosapan.medium.com/i-spent-days-lost-in-indonesian-nlp-resources-so-i-built-a-better-starting-point-2d8b9b7352c4)
+
 ---
 
 ## 🗺️ How to use this repo
