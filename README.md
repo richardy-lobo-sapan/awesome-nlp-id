@@ -419,8 +419,6 @@ I'm still learning too. So let's figure this out together.
 - **[Code-mixed Javanese-Indonesian](https://huggingface.co/datasets/SEACrowd/code_mixed_jv_id)** `🟢` `🔓` `📦` `📄`
   Sentiment analysis and machine translation dataset for Javanese-Indonesian code-mixed text. One of the few datasets specifically targeting real-world code-mixing patterns between a local language and Bahasa Indonesia.
 
-- **[Code-mixed Javanese-Indonesian](https://huggingface.co/datasets/SEACrowd/code_mixed_jv_id)** `🟢` `🔓` `📦` `📄`
-  Sentiment analysis and machine translation dataset for Javanese-Indonesian code-mixed text. One of the few datasets specifically targeting real-world code-mixing patterns between a local language and Bahasa Indonesia.
 
 ### Legal NLP
 
@@ -703,7 +701,7 @@ I'm still learning too. So let's figure this out together.
 ### Full NLP Frameworks
 
 - **[spaCy (Indonesian pipeline)](https://spacy.io/)** `🟢` `🔓 MIT`
-  spaCy now has an Indonesian model. Good choice if you want a production-ready NLP pipeline. See the [official spaCy docs](https://spacy.io/models/id) to get started.
+  spaCy now has an Indonesian model. Good choice if you want a production-ready NLP pipeline. See the documentation to get started.
 
 - **[Flair](https://github.com/flairNLP/flair)** `🟢` `🔓 MIT`
   Multilingual NLP framework with Indonesian support. Particularly good for NER and sequence labeling.
