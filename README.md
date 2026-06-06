@@ -873,3 +873,6 @@ This repo stands on the shoulders of a lot of people's hard work:
 *This list only aggregates publicly available resources. Please refer to each resource's original license before use in your projects.*
 
 *Found something outdated or missing? [Open an issue](https://github.com/richardy-lobo-sapan/awesome-nlp-id/issues) — I'm actively maintaining this.*
+
+## Maintainer
+- richardy-lobo-sapan
