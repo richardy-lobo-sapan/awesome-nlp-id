@@ -7,6 +7,9 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) · Versions: `Y
 
 ## [Unreleased]
 
+### Removed
+- Deleted push.sh helper script (no longer needed)
+
 ## [2026.05b] — 2026-05-22
 
 ### Added
